@@ -1,20 +1,26 @@
-<!--
-<div class="container">
-  <h1 class="question"></h1>
-  <h2 class="result"></h2>
-  <div class="answers">
+<!--<div class="container">-->
+<!--<h1 class="question"></h1>-->
+<!--<h2 class="result"></h2>-->
+<!--<div class="answers">-->
 
-  </div>
-  <div class="nav">
-  </div>
-  <h3 class="score"></h3>
-</div>
--->
+<!--</div>-->
+<!--<div class="nav">-->
+<!--</div>-->
+<!--<h3 class="score"></h3>-->
+<!--</div>-->
 
 <div class="container">
-  <h1>Demo of Bootstrap buttons</h1>
-  <button class="btn btn-default">default</button>
-  <button class="btn btn-success">success</button>
-  <button class="btn btn-danger">danger</button>
-  <button class="btn btn-primary">primary</button>
+  <% @question.each do |question| %>
+    <h1><%= question.description %></h1>
+  <% end %>
+
+  <% @pa.each do |pa| %>
+
+    <button class="btn btn-default"><%= pa.description %></button>
+    <!--<button class="btn btn-success"><#%= pa.description %></button>-->
+    <!--<button class="btn btn-danger"><%#= pa.description %></button>-->
+    <!--<button class="btn btn-primary"><%#= pa.description %></button>-->
+  <% end %>
+  <button class="btn btn-next">Next</button>
+
 </div>

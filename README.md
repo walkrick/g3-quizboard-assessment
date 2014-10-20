@@ -21,3 +21,7 @@ the buttons you can use to mark an answer as correct or incorrect.
   on and 4 is the total questions)
 - Upon completing the quiz a user should be presented with their score as a
   percentage
+
+## What it should look like:
+
+![](https://photos-4.dropbox.com/t/1/AAAcZtpfBZ8cn20_2dw7pcuCqqW-mprgbaChWGzLgGSTfA/12/252902076/png/1024x768/3/1413824400/0/2/Screenshot%202014-10-20%2008.59.38.png/plIiHrmKcC_cI0ZlK4SV57MXzRFZ9waScs7OWpvMrao)
